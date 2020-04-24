@@ -1,0 +1,19 @@
+{
+  "name": "recycled_urban",
+  "version": "1.0.0",
+  "description": "\"# recycled_urban\"",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/trucane/recycled_urban.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/trucane/recycled_urban/issues"
+  },
+  "homepage": "https://github.com/trucane/recycled_urban#readme"
+}
