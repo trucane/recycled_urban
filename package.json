@@ -4,6 +4,7 @@
   "description": "\"# recycled_urban\"",
   "main": "index.js",
   "scripts": {
+    "server":"node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -15,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/trucane/recycled_urban/issues"
   },
-  "homepage": "https://github.com/trucane/recycled_urban#readme"
+  "homepage": "https://github.com/trucane/recycled_urban#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
 }
