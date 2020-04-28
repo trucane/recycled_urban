@@ -18,8 +18,10 @@
   },
   "homepage": "https://github.com/trucane/recycled_urban#readme",
   "dependencies": {
+    "cors": "^2.8.5",
     "dotenv": "^8.2.0",
     "express": "^4.17.1",
+    "helmet": "^3.22.0",
     "mongoose": "^5.9.10",
     "nodemon": "^2.0.3"
   }

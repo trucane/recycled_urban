@@ -2,8 +2,6 @@ const express = require('express');
 const router = express.Router();
 const Business = require('./Business-model')
 
-router.use(express.json())
-
 
 router.get('/', async (req, res) => {
     try{

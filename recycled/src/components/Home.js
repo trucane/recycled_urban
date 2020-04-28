@@ -1,6 +1,9 @@
 import React from 'react';
 import classnames from 'classnames';
-import styles from './home.module.css'
+import styles from './home.module.css';
+import {Grid} from '@material-ui/core';
+
+import Menu from './menus/home-top-menu'
 
 
 
@@ -11,17 +14,16 @@ class Home extends React.Component{
          return(
 
             <>
-                <div className={classnames(styles.container)}>
-                <section className={classnames(styles.sect)}>
-                        <div>One section</div>
-                    </section>
-                    <section>
-                        <div>Two section</div>
-                    </section>
-                    <section>
-                        <div>Three section</div>
-                    </section>
-                </div>
+                <Menu />
+                <Grid container>
+                    <Grid item className={classnames(styles.sect, styles.sect1)}>Section 1
+                    </Grid>
+                    <Grid item className={classnames(styles.sect, styles.sect2)}>Section 2
+                    </Grid>
+                    <Grid item className={classnames(styles.sect, styles.sect3)}>Section 3
+                    </Grid>
+                </Grid>
+                
             </>
 
         )

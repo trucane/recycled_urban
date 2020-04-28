@@ -1,10 +1,14 @@
 const express = require('express');
 const app = express();
+const cors = require('cors')
 const mongoose = require('mongoose');
-
 const BusinessRouter = require('./services/businesses/Business-router')
-
 require('dotenv/config')
+
+app.use(cors())
+app.use(express.json())
+
+
 
 
 
@@ -14,7 +18,6 @@ require('dotenv/config')
 mongoose.connect(process.env.DB_PASSWORD,
     {useNewUrlParser:true, useUnifiedTopology:true},
     ()=> console.log('connected by mongoose'))
-    
     
     app.use('/business', BusinessRouter)
     
