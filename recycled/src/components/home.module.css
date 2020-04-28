@@ -1,0 +1,10 @@
+.container{
+    display:flex;
+    background-color: aqua;
+}
+
+.sect{
+    padding:10px;
+    height:100vh;
+    width:100%;
+}
